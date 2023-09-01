@@ -21,6 +21,7 @@
 #include <gst/gst.h>
 #include <string>
 #include <thread>
+#include <memory>
 
 #include "CameraDevice.h"
 #include "VideoCapture.h"

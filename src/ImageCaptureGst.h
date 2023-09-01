@@ -21,6 +21,9 @@
 #include "CameraDevice.h"
 #include "ImageCapture.h"
 
+#include <memory> // for std::shared_ptr
+
+
 class ImageCaptureGst final : public ImageCapture {
 public:
     ImageCaptureGst(std::shared_ptr<CameraDevice> camDev);
